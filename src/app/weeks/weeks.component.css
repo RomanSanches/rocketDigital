@@ -1,0 +1,85 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "mulish";
+}
+
+p {
+    color: #8D8D8D;
+}
+
+h6 {
+    font-weight: 700;
+}
+
+.price {
+    color: #FF723D;
+    font-weight: 700;
+}
+
+.price2 {
+    font-family: "mulish";
+    text-decoration: line-through;
+    color: #8D8D8D;
+    font-weight: 400;
+    font-size: 12px;
+    margin-left: 9px;
+    margin-right: 40px;
+}
+
+.this {
+    font-family: "mulish";
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #F9F9FB;
+    height: 450px;
+    margin-top: 47px;
+    width: 15%;
+}
+
+.carousel {
+    background: #F9F9FB;
+    height: 450px;
+    margin-top: 20px;
+}
+
+.carousel-cell {
+    width: 25%;
+    height: 390px;
+    margin-right: 50px;
+    margin-top: 30px;
+    background: #ffffff;
+    border-radius: 30px;
+    counter-increment: carousel-cell;
+}
+
+.carousel-cell.is-selected {
+    background: #FFFFFF;
+}
+
+.carousel-cell:before {
+    display: block;
+}
+
+.mob-title {
+    display: none;
+    color: #C4C4C4;
+}
+
+@media screen and (max-width: 375px) {
+    .div {
+        display: none;
+    }
+    .card {
+        width: 80%;
+    }
+    .mob-title {
+        display: unset;
+        font-family: "mulish";
+        font-weight: 700;
+    }
+}

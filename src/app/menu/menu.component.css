@@ -1,0 +1,12 @@
+.menu {
+    background-color: #92D2D9;
+    color: white !important;
+}
+
+@media screen and (max-width: 375px) {
+    .menu {
+        background-color: #92D2D9;
+        color: white !important;
+        width: 140%;
+    }
+}

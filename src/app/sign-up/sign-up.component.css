@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Mulish:wght@200&display=swap');
+.off {
+    margin-top: 70px;
+    height: 77vh;
+    background-image: url('/assets/blog.jpeg');
+    background-size: cover;
+    background-position: center;
+}
+
+button {
+    background-color: #FF723D;
+    font-size: medium;
+    font-weight: 100;
+    border: 0px;
+}
+
+.btn-primary:hover {
+    background-color: red !important;
+}
+
+h1 {
+    color: white;
+    line-height: 95px;
+    font-size: 65px;
+}
+
+h3 {
+    color: rgba(255, 255, 255, 0.116);
+    font-size: 45px;
+    text-align: center;
+    margin-top: 15px;
+}
+
+h6 {
+    color: white;
+    font-family: "mulish";
+}
+
+p {
+    color: white;
+    font-size: 10px;
+    font-family: "mulish";
+}
+
+h2 {
+    color: rgba(255, 255, 255, 0.507);
+    font-size: 45px;
+}
+
+.off2 {
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 9%;
+    margin-left: 8%;
+    font-weight: 700;
+}
+
+.sign {
+    height: 170px;
+    width: 100%;
+    margin-top: 11%;
+    background-color: #FF723D;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.si {
+    display: flex;
+    align-items: center;
+    width: 60%;
+    margin-left: 15% !important;
+}
+
+.si2 {
+    display: flex;
+    flex-direction: column;
+}
+
+.bts {
+    background-color: #232323;
+    border-radius: 5px;
+    color: white;
+    font-family: "mulish";
+    font-size: 10px;
+    height: 50px;
+}
+
+.mob-e {
+    display: none;
+}
+
+@media screen and (max-width: 375px) {
+    .off {
+        width: 140%;
+    }
+    .bt {
+        background-color: white !important;
+        color: #232323;
+    }
+    .si {
+        flex-direction: column;
+        align-items: flex-start;
+        margin-top: 20px;
+        width: 80%;
+    }
+    .sign {
+        height: 200px;
+    }
+    .mob-s {
+        display: none;
+    }
+    .col-6 {
+        width: 100%;
+    }
+    p {
+        font-size: medium;
+    }
+    h6 {
+        font-size: 22px;
+        font-weight: 700;
+    }
+    .mob-e {
+        display: unset;
+        background-color: #FF723D;
+        padding-top: 0px;
+        margin-top: 0px;
+        height: 135px;
+    }
+    .bts {
+        background-color: #232323;
+        border-radius: 10px;
+        color: white;
+        font-family: "mulish";
+        font-size: 15px;
+        height: 50px;
+        float: right;
+        width: 160px;
+        margin-top: 15px;
+        margin-right: 60px;
+    }
+    .inp {
+        margin-left: 63px;
+    }
+    .inp2 {
+        height: 56px;
+        border-radius: 10px;
+    }
+}

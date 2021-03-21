@@ -1,0 +1,59 @@
+.bg-topNav {
+    background-color: #FF723D;
+    height: 94px;
+}
+
+input {
+    border-radius: 20px;
+    border: 0px;
+    border-color: unset;
+    height: 20px;
+    width: 314px;
+}
+
+.flexS {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 25%;
+}
+
+.login {
+    color: white;
+    font-size: x-small;
+    line-height: 0.2px;
+}
+
+.icons {
+    width: 15%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-evenly;
+}
+
+.search {
+    margin-left: 25px;
+    margin-top: 15px;
+    height: 30px;
+}
+
+@media screen and (max-width: 375px) {
+    .bg-topNav {
+        height: 120px;
+        width: 140%;
+    }
+    .icons {
+        width: 30%;
+        display: flex;
+        align-items: flex-end;
+        justify-content: space-evenly;
+    }
+    .login2 {
+        display: none;
+    }
+    .search {
+        margin-left: 25px;
+        margin-top: 15px;
+        height: 30px;
+    }
+}

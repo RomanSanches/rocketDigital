@@ -1,0 +1,55 @@
+.highL {
+    height: 45vh;
+    margin-top: 20px;
+    background: linear-gradient(to right, #F1F1F3 45%, rgba(240, 240, 242, 0)100%), url(https://s3-alpha-sig.figma.com/img/e27c/50c7/bd1654305fd122f54b49e4f1615a42fe?Expires=1616976000&Signature=SuFgLHtXeZHiyPXxF1GT20sdWBsouDn3n7SiqYjo4snQU7r42a22Wg9KPV8Y9oaFaDrLrAlsJwatUgZC3PNCWmLlaR2pzKBEGcDW2NMa4~rKyrnaQvoF89WpWbUDCXD6KkolarQaqqZ~~aVAYHMAoPxc2FB-KUIn-JhNVIAPNsgVBSmnSMf2UVA7UdsxO1O9PK07-6aQJcEG-adU1UxWm0JIXJaNcwJn0GW9XoghO50BYgnfIU9Hi8E1kaoPdKPfZPKDiRvngjDdIzwhLU9-WHe4ui209NmiEQsQc1SxhjEUziGsLalf-FKsMHNQViTB33~gWI5fW1RCFKxDKQGvzQ__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA);
+    background-size: cover;
+    background-position: right;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    border-radius: 15px;
+}
+
+.highP {
+    font-family: "mulish";
+    color: #FF723D;
+    font-size: 15px;
+    font-weight: 800;
+}
+
+h3 {
+    font-family: "mulish";
+    font-size: 36px;
+    font-weight: 800;
+}
+
+.cont-txt {
+    width: 40%;
+    margin-left: 25px;
+    font-size: 12px;
+}
+
+@media screen and (max-width: 375px) {
+    .highL {
+        height: 45vh;
+        width: 144%;
+        margin-top: 20px;
+        background: linear-gradient(to right, #F1F1F3 45%, rgba(240, 240, 242, 0)100%), url(https://s3-alpha-sig.figma.com/img/e27c/50c7/bd1654305fd122f54b49e4f1615a42fe?Expires=1616976000&Signature=SuFgLHtXeZHiyPXxF1GT20sdWBsouDn3n7SiqYjo4snQU7r42a22Wg9KPV8Y9oaFaDrLrAlsJwatUgZC3PNCWmLlaR2pzKBEGcDW2NMa4~rKyrnaQvoF89WpWbUDCXD6KkolarQaqqZ~~aVAYHMAoPxc2FB-KUIn-JhNVIAPNsgVBSmnSMf2UVA7UdsxO1O9PK07-6aQJcEG-adU1UxWm0JIXJaNcwJn0GW9XoghO50BYgnfIU9Hi8E1kaoPdKPfZPKDiRvngjDdIzwhLU9-WHe4ui209NmiEQsQc1SxhjEUziGsLalf-FKsMHNQViTB33~gWI5fW1RCFKxDKQGvzQ__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA);
+        background-size: cover;
+        background-position: right;
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        border-radius: 15px;
+    }
+    .highP {
+        margin-top: 25px;
+    }
+    h3 {
+        font-size: 26px;
+        width: 140%;
+    }
+    p {
+        width: 140%;
+    }
+}

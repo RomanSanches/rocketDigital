@@ -1,0 +1,28 @@
+.container {
+    margin-left: 110px;
+    width: 80%;
+}
+
+.cont-mob {
+    display: none;
+}
+
+@media screen and (max-width: 375px) {
+    .dis-desk {
+        display: none;
+    }
+    .cont-mob {
+        display: flex;
+        margin-left: 50px;
+    }
+    .imgs {
+        margin-left: 140px;
+    }
+    h4 {
+        font-family: "mulish";
+        color: #C4C4C4;
+    }
+    .imgs2 {
+        margin-left: 150px;
+    }
+}
