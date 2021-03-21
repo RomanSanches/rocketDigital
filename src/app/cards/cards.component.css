@@ -1,10 +1,8 @@
-.card-m {
-    background-image: linear-gradient(to right, #232323 15.5%, rgba(255, 255, 255, 0)66.98%), url(https://s3-alpha-sig.figma.com/img/9978/7cd7/d38e9b61c8b14bfb810ab0ac78626b15?Expires=1616976000&Signature=F6mnqiXVDoW4XndZeyu7vlt8IdTRP~ks~iRjvaZI8dA-y33T5becQaZlo2usbPsViBh2vCdqajkM6YIAKahEoxUGN8anjbgKHbKxZJexJlB8xBfEW6CIkZPcf3IupKEuUsWnZyvTF6J509tLA964IKULk-JHfG8MkWJ~2HO2n9zLH9Apm4g-~pMFGnPuWuIU7nGtLSDHnNfAYaLN-x7dXkqotoagla8iDeIUtrO-RID7lrGkqVdeVVSUB2kZCgvsY8k~yimFyQH5hjtIg8tS0IGCeCZ22JdyOqIa9~Xb4kN5QD0GrKNfRRifhCacMSY1lI4fETuF-MipSEtrfNi7~g__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA);
+.card-gen {
     background-size: cover;
-    background-position: bottom;
     border-radius: 15px;
     height: 120px;
-    width: 32%;
+    width: 30%;
     margin-right: 15px;
     display: flex;
     align-items: center;
@@ -14,94 +12,36 @@
     align-items: flex-start;
     justify-content: center;
     flex-direction: column;
+}
+
+.card-m {
+    background-image: linear-gradient(to right, #232323 15.5%, rgba(255, 255, 255, 0)66.98%), url(https://s3-alpha-sig.figma.com/img/9978/7cd7/d38e9b61c8b14bfb810ab0ac78626b15?Expires=1616976000&Signature=F6mnqiXVDoW4XndZeyu7vlt8IdTRP~ks~iRjvaZI8dA-y33T5becQaZlo2usbPsViBh2vCdqajkM6YIAKahEoxUGN8anjbgKHbKxZJexJlB8xBfEW6CIkZPcf3IupKEuUsWnZyvTF6J509tLA964IKULk-JHfG8MkWJ~2HO2n9zLH9Apm4g-~pMFGnPuWuIU7nGtLSDHnNfAYaLN-x7dXkqotoagla8iDeIUtrO-RID7lrGkqVdeVVSUB2kZCgvsY8k~yimFyQH5hjtIg8tS0IGCeCZ22JdyOqIa9~Xb4kN5QD0GrKNfRRifhCacMSY1lI4fETuF-MipSEtrfNi7~g__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA);
+    background-position: bottom;
 }
 
 .card-j {
     background-image: linear-gradient(to right, #232323 15.5%, rgba(255, 255, 255, 0)66.98%), url(https://s3-alpha-sig.figma.com/img/cbb1/6089/b4705c5e403d361c13218296c1c22cee?Expires=1616976000&Signature=MYaEjwjCIfOIcDqGEK2Ya8q8cFjJwg8JIyFMfc9kheTIez9nGX4AH6X3QQJQg5Ntvt2FkIMXDGk-rZr4h~~2DEmrWLb0yNuKRB1Dyr1fMlgEoQRKRcuZUu~QVUQki54KRBhxlk0SVvxtvZMgknsaC1h~O94RE0iRwdQqvFgwPtA6PaRFZqHyUFS2H0EcHysqCqBhSvg8~Exw8pm0NmD-QxMW2tNeut7wDFb3jYtgSjKGVM3dowQr-hcPq~TorkLp1Aw3PEr1xDckrhqtOIkbi91VQ-6C8oGb883XVd37k1JK7WAbk6vwfKtK~J16yxOq-wq65hRXSqX3zAsljR-Suw__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA);
-    background-size: cover;
     background-position: bottom;
-    border-radius: 15px;
-    height: 120px;
-    width: 32%;
-    margin-right: 15px;
-    display: flex;
-    align-items: center;
-    justify-content: left;
-    flex-direction: column;
-    display: flex;
-    align-items: flex-start;
-    justify-content: center;
-    flex-direction: column;
 }
 
 .card-t {
     background-image: linear-gradient(to right, #232323 15.5%, rgba(255, 255, 255, 0)66.98%), url(https://s3-alpha-sig.figma.com/img/97ba/9fb7/50f34ffb73ca3a48326c58114be0c237?Expires=1616976000&Signature=Yfi1yvETed3g-eJnz1VjG0lzETtoDPhVn4rvUNtHJlQS-TbmbKQbo8S5vZvbAMcacrfRpq0i1dx-wocIgZNhj~~EzjYWW8FpduAO6yXftKchuMAqUQwIO7HPXRA6L5BdcSUb8rBn2Sy12G-ymkqsZT11Z-N2kMdhY1N6wOwc~xIVYGhBiHTnOe8urKHmlR7HzT7uLewOkm0OTSANJ96Xgk0je8n4bdPaUJIMXIBuMbqPUAOuEoXbvGuNaN~p8CDwBoqcdbZVytx1sq5AQrlyAsDhhBzi7~CleQwK-kOzhRdyDpoUmoU5FVvcnhle4~ayEjbZWkSPUoOBWqVQzHIcwg__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA);
-    background-size: cover;
-    background-position: bottom;
-    border-radius: 15px;
-    height: 120px;
-    width: 32%;
-    display: flex;
-    align-items: center;
-    justify-content: left;
-    flex-direction: column;
-    display: flex;
-    align-items: flex-start;
-    justify-content: center;
-    flex-direction: column;
+    background-position: 0%;
 }
 
 .card-w {
     background-image: linear-gradient(to right, #232323 15.5%, rgba(255, 255, 255, 0)66.98%), url(https://s3-alpha-sig.figma.com/img/8d92/b1df/594024bf3f4cf7e5c859a01516df999d?Expires=1616976000&Signature=go4KlFKk2QA7SmENIxvz3z2zbZilpb6XTWeDrhEmgzhjj3gGQbzk-9DlHxk2w6SKxlo5TPSuUUJZNMm7J1qbYQSPgmEscR2S2ZLmgHiCKHlC61AbGJclYm8wUgZ-AsK4dfjXnjB1Q~Ks2L406loumVEx6hGjrrm1yKE8iFAazsFQBuMJ1w79SgRSZkBJY4WlX3-ZAd-zpXo6uZYQr-IfADCvOH5sLnElBl5JRaUUyn2nqZm9aDXzcDKpvEBm8sLI3AHxka6tY2fF6mIiiOdJxGNVx6YtbcIHH7sfAqenYR2~jjEHWp~~CXm82bfLbb6jje8R2dDKdXvdKcNbieJcKg__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA);
-    background-size: cover;
-    background-position: bottom;
-    border-radius: 15px;
-    height: 120px;
-    width: 32%;
-    margin-right: 15px;
-    display: flex;
-    align-items: center;
-    justify-content: left;
-    flex-direction: column;
-    display: flex;
-    align-items: flex-start;
-    justify-content: center;
-    flex-direction: column;
+    background-position: 0%;
 }
 
 .card-g {
     background-image: linear-gradient(to right, #232323 15.5%, rgba(255, 255, 255, 0)66.98%), url(https://s3-alpha-sig.figma.com/img/6b6e/aae7/2bb9153e58da499cde9e76d8c1e7ecbd?Expires=1616976000&Signature=Q5gXutiCkD~aCbxo5FniNgZFvci39g82PuFvSHT2rVTNVd0RqaTcUUEezocPG7GARkARWK0BtG7LuFWagnY-HLADhfQBhI~EuhFBL~wVNOQ0unMvS1pnxxyfYw3CxqfkCY15IznBbyBg00iCvGsGc1PNiIhMm47wGP-flUQMSI2FHXDBoo9HAaQ1u14rp6Md-Ap8qeRg1QYuFZAXLLaRuO3HFASF0qBjIlphvGniU7NYxzNSoFxY0ovBuBXKoX7aI-HPTwSuLw3aZ1ej1cQtYH6ybe6BX3PSZiVYbo8~Mdiyvd87ZqIQ61C6b-mn0Mx4-Ayk4s17yvh5zViQr5O42Q__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA);
-    background-size: cover;
     background-position: 0%;
-    border-radius: 15px;
-    height: 120px;
-    width: 32%;
-    margin-right: 15px;
-    display: flex;
-    align-items: center;
-    justify-content: left;
-    flex-direction: column;
-    display: flex;
-    align-items: flex-start;
-    justify-content: center;
-    flex-direction: column;
 }
 
 .card-o {
     background-image: linear-gradient(to right, #232323 15.5%, rgba(255, 255, 255, 0)66.98%), url(https://s3-alpha-sig.figma.com/img/bc5d/c6c7/0637706f2ef359fc672a86b10f10fc99?Expires=1616976000&Signature=IbVsPumQqoknPSB9QIfKG3sDSAXRoLucYgLFNwFr6fzPht32jDRxlkorBKv3vUsSQ9kZUJuSWknxCV4mSMeqqfwbI8JH8Ayk6q-RrIhkmVbvGtKahl5TJ0qdWoTTn0jkjoxBvaAZ9rJ3T8Yw9BkGSE6iJuRQ-yuBia3h~f2Gi9KsQAUSn~cu1Cs0~s5-jRtnvCPbSw7qKrSL5ItRm3Km2nykbb8Uxop2sKihddJvTzYoyYyPPdZsh4HTJqjimNJy3qR7LSjUNjppZ8xCL06~IQnElDGOLRC6DkRRA1fYJ0njBlX3hMevVCQRWkBgY7Y~zlBqSuD8FFHek1ePj-QiiQ__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA);
-    background-size: cover;
     background-position: 0%;
-    border-radius: 15px;
-    height: 120px;
-    width: 32%;
-    display: flex;
-    align-items: center;
-    justify-content: left;
-    flex-direction: column;
-    display: flex;
-    align-items: flex-start;
-    justify-content: center;
-    flex-direction: column;
 }
 
 h5 {
